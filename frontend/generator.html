@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <button id="sign_out">Sign Out</button>
+    <div class=for_canvas>
+        <h1 >Melody Generator</h1>
+        <canvas id="Canvas" width="500" height="200"></canvas>
+        <button class="btn" id= "gen">Generate</button>
+        <button class="btn" id ="sve">Save</button>
+    </div> 
+
+    <div id="savedtitle">
+        <h1>Saved Melodies</h1>
+    </div>
+
+    <section id = "container">
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.42.0/dist/near-api-js.min.js"></script>
+    <script src="generator.js"></script>    
+</body>
+</html>
